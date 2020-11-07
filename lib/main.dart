@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Home.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -8,11 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Adobe XD Plugin Test',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: Home(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
